@@ -3,7 +3,7 @@
     :maxdepth: 2
     :hidden:
 
-    .. ifconfig:: teak_is_rtd_build
+    .. ifconfig:: read_the_docs_build
 
        Adobe AIR <https://teak.readthedocs.io/projects/air/en/latest/index.html>
        Unity <https://teak.readthedocs.io/projects/unity/en/latest/index.html>
