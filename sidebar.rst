@@ -1,5 +1,5 @@
 .. ifconfig:: read_the_docs_build
-  .. toctree::
+   .. toctree::
       :caption: Topics
       :maxdepth: 2
       :hidden:
@@ -10,8 +10,8 @@
        General <https://teak.readthedocs.io/projects/dashboard/en/latest/index.html>
        Known Issues <teak-docs-common/known-issues>
 
-.. ifconfig:: !read_the_docs_build
-  .. toctree::
+.. ifconfig:: not read_the_docs_build
+   .. toctree::
       :caption: Topics
       :maxdepth: 2
       :hidden:
