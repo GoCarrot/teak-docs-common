@@ -3,4 +3,4 @@
     :maxdepth: 2
     :hidden:
 
-    Home <https://teak.readthedocs.io/en/latest/>
+    Home <http://localhost:8000/>
