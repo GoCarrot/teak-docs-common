@@ -1,6 +1,0 @@
-.. toctree::
-    :caption: Teak Documentation
-    :maxdepth: 2
-    :hidden:
-
-    Home <https://teak.readthedocs.io/en/latest/>
