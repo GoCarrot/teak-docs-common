@@ -13,17 +13,11 @@ air = "https://teak.readthedocs.io/projects/air"
 server = "https://teak.readthedocs.io/projects/server-api"
 
 [[toctree]]
-name = "Teak Documentation"
-items = [
-    {p="teak", k="Home", v="index"},
-]
-
-[[toctree]]
 name = "User Guides"
 items = [
-    {p="teak", k="Getting Started", v="index"},
-    {p="teak", k="Tips and Tricks", v="index"},
-    {p="teak", k="Reference", v="index"},
+    {p="teak", k="Getting Started", v="getting_started"},
+    {p="teak", k="Tips and Tricks", v="tips_and_tricks"},
+    {p="teak", k="Reference", v="reference"},
 ]
 
 [[toctree]]
