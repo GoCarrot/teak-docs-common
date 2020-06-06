@@ -47,7 +47,9 @@ def generate_sidebar(config, this_project, file):
     lines.extend([".. toctree::", f"    :caption: {sidebar['caption']}", "    :hidden:", "    :maxdepth: 2", ""])
     for entry in sidebar['entries']:
       if entry['project'] == this_project:
-        args = entry['title'], entry['page']
+        page = entry['page']
+        page = 'self' if page == 'index' else page
+        args = entry['title'], page
       else:
         args = (entry['title'], f"{project_dict[entry['project']]}{entry['page']}.html")
       lines.append("    %s <%s>" % args)
