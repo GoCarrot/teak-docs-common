@@ -34,7 +34,7 @@ def generate_sidebar(config, this_project, file):
     {
       'caption': 'Developer Guides',
       'entries': [
-        {'project': 'unity', 'title': 'Unity SDK', 'page': 'index'},
+        {'project': 'unity', 'title': 'Unity SDK', 'page': 'integration'},
         {'project': 'air', 'title': 'Adobe AIR SDK', 'page': 'index'},
         {'project': 'server', 'title': 'Server API', 'page': 'index'}
       ]
