@@ -26,8 +26,8 @@ def generate_sidebar(config, this_project, file):
     {
       'caption': 'User Guides',
       'entries': [
-        {'project': 'teak', 'title': 'Getting Started', 'page': 'getting_started'},
-        {'project': 'teak', 'title': 'Tips and Tricks', 'page': 'tips_and_tricks'},
+        {'project': 'teak', 'title': 'Getting Started', 'page': 'getting-started'},
+        {'project': 'teak', 'title': 'Tips and Tricks', 'page': 'tips-and-tricks'},
         {'project': 'teak', 'title': 'Reference', 'page': 'reference'}
       ]
     },
