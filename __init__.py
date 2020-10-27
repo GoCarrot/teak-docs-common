@@ -37,7 +37,7 @@ def generate_sidebar(config, this_project, file):
       'entries': [
         {'project': 'unity', 'title': 'Unity SDK', 'page': 'integration'},
         {'project': 'air', 'title': 'Adobe AIR SDK', 'page': 'integration'},
-        {'project': 'teak-android', 'title': 'Android SDK', 'page': 'integration'},
+        {'project': 'teak-android', 'title': 'Android SDK', 'page': 'landing'},
         {'project': 'server', 'title': 'Server API', 'page': 'integration'},
       ]
     }
