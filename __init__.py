@@ -11,7 +11,7 @@ projects = [
   {'name': 'teak', 'local': 'http://localhost:8000/', 'remote': rtd_base_url + 'en/%s/' % rtd_version},
   {'name': 'unity', 'local': 'http://localhost:8003/', 'remote': rtd_base_url + 'projects/unity/en/%s/' % rtd_version},
   {'name': 'air', 'local': 'http://localhost:8002/', 'remote': rtd_base_url + 'projects/air/en/%s/' % rtd_version},
-  {'name': 'teak-android', 'local': 'http://localhost:8004/', 'remote': rtd_base_url + 'projects/teak-android/en/%s/' % rtd_version}
+  {'name': 'teak-android', 'local': 'http://localhost:8004/', 'remote': rtd_base_url + 'projects/teak-android/en/%s/' % rtd_version},
   {'name': 'server', 'local': 'http://localhost:8001/', 'remote': rtd_base_url + 'projects/server-api/en/%s/' % rtd_version}
 ]
 
